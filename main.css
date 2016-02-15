@@ -1,0 +1,51 @@
+ body {
+	  background-color: #ffffff;
+}
+.container {
+	
+ 	 font-weight: bold;
+ 	 
+  	height: 100%;
+  	width: 100%;
+  	text-align: center;
+
+}
+
+
+.hours, .minutes, .seconds {
+	display: inline-block;
+ 	 font-size: 100px;
+ 	 font-family: 'Open Sans';
+ 	 color: #000;
+ 	 margin: 0.2em;
+}
+
+.colon {
+	font-size: 70px;
+  	font-family: 'Open Sans';
+  	color: #000;
+}
+
+
+.hours:hover {
+	display: none;
+}
+
+.minutes:hover {
+	display: none;
+}
+
+.seconds:hover {
+ 	display: none;
+}
+
+.hex-code1, .hex-code2, .hex-code3 {
+	display: none;
+}
+
+.hex-code1:hover , .hex-code2:hover , .hex-code3:hover {
+	
+	display: none;
+}
+/* create empty classes call in css display none; js call class selector .textContent to current hex a decimal
+when normal hours are not hovered display none; 
