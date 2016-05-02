@@ -1,1 +1,1 @@
-# 2.4.3-colorClock
+# Javascript Color Clock
